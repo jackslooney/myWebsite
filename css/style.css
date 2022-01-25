@@ -17,9 +17,9 @@ a{
 .main-header{
   text-align:center;
   font-weight:800;
-  font-family:fantasy;
-  font-size:200%;
-  letter-spacing: .5em;
+  font-family:Arial;
+  font-size:150%;
+  letter-spacing: .2em;
   background-color: black;
   color:White;
   padding:45px;
@@ -32,11 +32,17 @@ a{
 
 /*Formatting for the navBar in the main header*/
 .navBar li{
-  letter-spacing: .2em;
+  letter-spacing: .1em;
   list-style: none;
   padding-right:20px;
   float:right;
+  align-content: center;
 }
+
+.center {
+  border: 5px solid;
+  text-align: center;
+  }
 
 .navBar ul{
   text-decoration:none;
