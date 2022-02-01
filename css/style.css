@@ -45,3 +45,18 @@ img {
 .overflow {
     overflow-x:auto;
 }
+
+.nav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color: #91BAD6;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.background-color-blue {
+    background-color: #1E3F66;
+}
