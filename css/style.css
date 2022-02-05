@@ -46,6 +46,22 @@ img {
     height: auto;
 }
 
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #F4EBEC
+}
+
+h2{
+    text-align: justify;
+    color: #F4EBEC;
+}
+
+p {
+    text-align: justify;
+    color: #F9D8D2;
+}
+
 /** Overflow (for tables) **/
 .overflow {
     overflow-x:auto;
@@ -66,7 +82,6 @@ img {
 .nav li{
     letter-spacing: .1em;
     list-style: none;
-    /* padding-right:20px; */
     padding: 10px;
     float:right;
     text-decoration: none;
@@ -82,12 +97,20 @@ img {
     color:#fff;
 }
 
-
+.header {
+    border: 1px solid black;
+    width: 1250px;
+    height: 100px;
+    text-align: center;
+    background-color:#91BAD6;
+    box-shadow: 10px 5px 5px #F4EBEC;
+}
 
 .background-color-blue {
     background-color: #1E3F66;
 }
 
-.background-map{
-    background: url("images/map-poster.jpg");
+.background-map {
+    background: url(../myWebsite/Images/map-poster.jpg);
+    background-size: cover;
 }
