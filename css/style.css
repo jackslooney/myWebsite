@@ -1,4 +1,4 @@
-
+/** Grid system - https://www.w3schools.com/css/css_rwd_grid.asp **/
 * {
     box-sizing: border-box;
 }
@@ -24,11 +24,6 @@
     .col-12 {width: 100%;}
 }
 
-a{
-    text-decoration: none;
-    color:#fff;
-  }
-
 [class*="col-"] {
     float: left;
     padding: 15px;
@@ -40,10 +35,15 @@ a{
     display: table;
 }
 
-/** Image **/   
+/** Image - https://www.w3schools.com/css/css_rwd_grid.asp **/   
 img {
     max-width: 100%;
     height: auto;
+}
+
+/** Overflow (for tables) - https://www.w3schools.com/howto/howto_css_table_responsive.asp **/
+.overflow {
+    overflow-x:auto;
 }
 
 h1 {
@@ -62,9 +62,28 @@ p {
     color: #F9D8D2;
 }
 
-/** Overflow (for tables) **/
-.overflow {
-    overflow-x:auto;
+a{
+    text-decoration: none;
+    color:#fff;
+  }
+
+table {
+    background-color: grey;
+    color: #F9D8D2;
+    border: 1px solid black;
+    border-spacing: 5px;
+    width: 100%;
+    font-size: large;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+li {
+    text-align: justify;
+    color: #F9D8D2;
 }
 
 .nav {
@@ -113,4 +132,57 @@ p {
 .background-map {
     background: url(../myWebsite/Images/map-poster.jpg);
     background-size: cover;
+}
+
+.center {
+    text-align: center;
+}
+
+.monster {
+    position: relative;
+    width: 400px;
+}
+
+.monster-box {
+    display: block;
+    width: 100%;
+}
+
+.monster-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity:0;
+    transition: opacity 0.25%;
+}
+
+.monster-overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.monster-overlay:hover {
+    opacity: 1;
+}
+
+.monster-overlay:hover > * {
+    transform: translateY(0);
+}
+
+.monster-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.monster-description {
+    font-size: 1.25em;
+    margin-top:0.25em;
 }
