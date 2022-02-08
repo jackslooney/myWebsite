@@ -183,6 +183,8 @@ li {
 }
 
 .monster-description {
+    text-align: center;
     font-size: 1.25em;
     margin-top:0.25em;
+    padding: .5em;
 }
