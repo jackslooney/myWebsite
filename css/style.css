@@ -59,6 +59,12 @@ h2{
     color: #F4EBEC;
 }
 
+h3 {
+    text-align: justify;
+    color: black;
+    font-size: large;
+}
+
 p {
     text-align: justify;
     color: #F9D8D2;
@@ -89,6 +95,7 @@ li {
     text-decoration: none;
     list-style: circle;
 }
+
 
 .nav {
     height: 100%;
@@ -193,4 +200,43 @@ li {
     font-size: 1.25em;
     margin-top:0.25em;
     padding: .5em;
+}
+
+.box-background {
+    height: 100%;
+    width: 110px;
+    background-color: rgba(109, 109, 109, 0.6);
+    overflow-x: hidden;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.box {
+    height: 70px;
+    width: 100px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.character-heading {
+    border: 1px solid black;
+    height: 100px;
+    text-align: center;
+    background-color: rgba(109, 109, 109, 0.6);
+}
+
+.dot {
+    height: 70px;
+    width: 70px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 15px;
+  }
+
+  .rectangle {
+    height: 60px;
+    width: 100px;
+    background-color: white;
+    border-radius: 15px;
 }
