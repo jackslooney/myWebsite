@@ -76,6 +76,10 @@ a{
     color:#fff;
   }
 
+blockquote {
+    color: #F9D8D2;
+}
+
 table {
     background-color: grey;
     color: #F9D8D2;
