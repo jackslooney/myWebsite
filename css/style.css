@@ -242,3 +242,7 @@ li {
     background-color: white;
     border-radius: 15px;
 }
+
+#main-footer {
+    text-align:center;
+}
