@@ -204,7 +204,7 @@ li {
 
 .box-background {
     height: 100%;
-    width: 110px;
+    width: 100%px;
     background-color: rgba(109, 109, 109, 0.6);
     overflow-x: hidden;
     padding: 5px;
